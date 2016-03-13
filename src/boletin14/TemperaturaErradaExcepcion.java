@@ -1,11 +1,11 @@
 package boletin14;
 
 
-public class TemperaturaErradaExcepcion extends Exception {//llamo a la superclase Exception (extende de exception)
+public class TemperaturaErradaExcepcion extends Exception {
     public TemperaturaErradaExcepcion(){
-        super("mensaxe por defecto:temperatura ten que ser naior que 80ºC");//mensaxe por defecto
+        super("mensaxe por defecto:temperatura ten que ser naior que 80ºC");
     }
-    public TemperaturaErradaExcepcion(String mensaxe){//usamolo cando queremos dar unha mensaxe personalizada
+    public TemperaturaErradaExcepcion(String mensaxe){
         super(mensaxe);
     }
 }

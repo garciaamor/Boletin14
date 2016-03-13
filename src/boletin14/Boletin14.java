@@ -11,7 +11,7 @@ public class Boletin14 {
         ConversorTemperaturas info = new ConversorTemperaturas();
         do{
           opcion= Integer.parseInt(JOptionPane.showInputDialog("A que desxas convertilos:\n1.Farenheit\n2.reamur\n3.sair"));
-          if(opcion == 1 ||opcion == 2)// se premo 3  non pide a temperatura 
+          if(opcion == 1 ||opcion == 2)
            celsius =Float.parseFloat( JOptionPane.showInputDialog("introduce a temperatura en grados celsius"));
 
         switch (opcion) {
